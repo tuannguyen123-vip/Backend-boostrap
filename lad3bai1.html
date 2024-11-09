@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .navbar-custom{
+            background-color: #87CEEB;
+        }
+        .mt-8 {
+  margin-top: 70px;
+} 
+
+    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+      <nav class="navbar navbar-expand-sm navbar-dark navbar-custom">
+       <div class="container">
+       <a class="navbar-brand" href="">
+        <img src="images1/logo-energy-pilates.png" alt="" style="width: 150px;"></a>
+         
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav me-auto">
+           <li class="nav-item">
+            <a class="nav-link" href="lab3bai4.html"><i class="fa-solid fa-list"></i>Bài Viết</a>
+           </li>
+
+           <li class="nav-item">
+            <a class="nav-link" href=""><i class="fa-solid fa-circle"></i>Giới Thiệu</a>
+           </li>
+
+           <li class="nav-item">
+           <a class="nav-link" href=""><i class="fa-solid fa-calendar-days"></i>Sự kiện</a>
+           </li>
+
+           <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown">
+            <i class="fa-solid fa-user">
+                
+            </i>Tài khoản</a>
+            <ul class="dropdown-menu">
+            <li><a  class="dropdown-item" href="">Đăng nhập</a></li>
+            <li><a  class="dropdown-item" href="">Quên mật khẩu</a></li>
+            <li><a  class="dropdown-item" href="">Đăng ký thành viên</a></li>
+            </ul> 
+        </li>
+        </ul>
+
+        <ul class="navbar-nav d-flex">
+         <li class="nav-item">
+           <a class="nav-link" href="">Tiếng Việt</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="">Tiếng Anh</a>
+         </li>
+        </ul>
+        </div>
+       </div>
+      </nav>
+      
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="images1/banner1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images1/banner2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item" >
+            <img src="images1/banner3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+
+      <section class="container mt-8">
+        <div class="row">
+         <aside class="col-md-4">
+         <h2 class="text-info mb-3">Về tôi</h2>
+         <div class="card blog">
+         <img src="images/avatar.png" alt="" class="card-img-top">
+         <div class="card-body">
+            <h5 class="card-title">
+           Giới thiệu bản thân
+            </h5>
+            <p class="card-text">
+            Mình tên là nguyễn anh tuấn , là sinh viên trường ...., học được hơn 1 năm, hiện tại 
+            mình cảm thấy rất muốn famous.
+            </p>
+         </div>
+         </div>
+          
+         <div class="mt-4">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                   <button class="nav-link active" id="register-tab" data-bs-toggle="tab" data-bs-target="#register" type="button" role="tab" aria-controls="register" aria-selected="true" ><h3>Đọc nhiều</h3></button>
+                </li>
+                <li class="nav-item" role="myTabContent">
+                    <button class="nav-link" id="login-tab" data-bs-toggle="tab" data-bs-target="#login" type="button" role="tab" aria-controls="login" aria-selected="false"><h3>Xem nhiều</h3></button>
+                </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+        
+              <div class="tab-pane fade show active" id="register" role="tabpanel" aria-labelledby="register-tab">
+                <div class="col-md-12 mt-4">
+                    <div class="blog-card mb-4">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="images/corevalue.jpg" alt="Biết ơn" class="img-fluid blog-thumbnail">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="blog-title">Biết ơn đời, đời sẽ thương ta</div>
+                                </div>
+                            </div>
+                        </div>
+        
+                    <div class="blog-card mb-4">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="images/sesameoil_300x300.jpg" alt="Biết ơn" class="img-fluid blog-thumbnail">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="blog-title">10 công dụng bất ngờ của dầu dừa</div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="blog-card mb-4">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="images/spinach_300x300.jpg" alt="Biết ơn" class="img-fluid blog-thumbnail">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="blog-title">Lợi ích khi ăn rau mỗi ngày</div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+              </div>
+               
+             <div class="tab-pane fade" id="login" role="tabpanel" aria-labelledby="login-tab">
+              <div class="col-md-6">
+                <h2>Đăng Nhập</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Mật Khẩu</label>
+                        <input type="password" class="form-control" id="password" placeholder="Mật Khẩu" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Đăng Nhập</button>
+                </form>
+            </div>
+        </div>
+         </div>
+         </aside>
+         
+         <article class="col-md-8">
+             <h2 class="text-info mb-3">Blog của chúng tôi</h2>
+             <div class="row">
+                <div class="col-md-4 md-2">
+            <div class="blog-card">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="blog-title">Phương pháp tập Pilates giúp phục hồi chấn thương cột sống</div>
+                        <span><i class="fas fa-comments"></i> 16</span>
+                        <img src="images/tap-piltes.jpg" alt="" class="img-fluid blog-thumbnail">
+                        <p class="blog-summary">Ngoài việc giúp duy trì vóc dáng, cải thiện sự linh hoạt, điều dai cho người tập, Pilates giúp cơ bắp và các khớp mọc dài hơn, kéo giãn hơn...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+               <div class="col-md-5">
+                <div class="blog-card mb-2">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="images/corevalue.jpg" alt="Biết ơn" class="img-fluid blog-thumbnail">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="blog-title">Biết ơn đời, đời sẽ thương ta</div>
+                                <span><i class="fas fa-comments"></i> 30</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                <div class="blog-card mb-2">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="images/orange_300x300.jpg" alt="Biết ơn" class="img-fluid blog-thumbnail">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="blog-title">9 tác dụng tuyệt vời của quả cảm</div>
+                                <span><i class="fas fa-comments"></i> 28</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                <div class="blog-card mb-2">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="images/sesameoil_300x300.jpg" alt="Biết ơn" class="img-fluid blog-thumbnail">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="blog-title">10 công dụng bất ngờ của dầu dừa</div>
+                                <span><i class="fas fa-comments"></i> 15</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="blog-card mb-2">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="images/spinach_300x300.jpg" alt="Biết ơn" class="img-fluid blog-thumbnail">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="blog-title">Lợi ích khi ăn rau mỗi ngày</div>
+                                <span><i class="fas fa-comments"></i> 12</span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="text-center mt-4">
+                <button class="btn btn-info view-more-btn" >Xem thêm</button>
+                </div>
+        </div>
+
+        <div class="col-md-12 mt-8">
+            <h2><center>Video - Đừng bỏ lỡ</center></h2>
+            <div class="row mt-4">
+                <div class="col-md-6 mb-4">
+            <div class="blog-card">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="images1/video1.jpg" alt="Biết ơn" class="img-fluid blog-thumbnail">
+                        </div>
+                        <div class="col-md-12">
+                            <div class="blog-title">Biết ơn đời, đời sẽ thương ta</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            
+                <div class="col-md-6 mb-4">
+            <div class="blog-card">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="images1/video2.jpg" alt="Biết ơn" class="img-fluid blog-thumbnail">
+                        </div>
+                        <div class="col-md-12">
+                            <div class="blog-title">10 công dụng bất ngờ của dầu dừa</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-4">
+            <div class="blog-card">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="images1/video3.jpg" alt="Biết ơn" class="img-fluid blog-thumbnail">
+                        </div>
+                        <div class="col-md-12">
+                            <div class="blog-title">Biết ơn đời, đời sẽ thương ta</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            
+                <div class="col-md-6 mb-4">
+            <div class="blog-card">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="images1/video4.jpg" alt="Biết ơn" class="img-fluid blog-thumbnail">
+                        </div>
+                        <div class="col-md-12">
+                            <div class="blog-title">10 công dụng bất ngờ của dầu dừa</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="text-center mt-4">
+                <button class="btn btn-info view-more-btn" >Xem thêm</button>
+                </div>
+
+        </div>
+         </article>
+         </div>
+         </section>
+         
+         <footer class="row bg-danger p-3 mt-4">
+          <div class="col-12 text-center">
+          Cảm ơn vì đã đọc qua trang wed của tôi
+          </div>
+         </footer>
+    
+</body>
+</html>
